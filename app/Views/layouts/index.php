@@ -34,8 +34,8 @@
           </ul>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <form action="/search" method="POST" class="d-flex">
+        <input class="form-control me-2" type="search" name="query" required placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-warning text-light" type="submit">Search</button>
       </form>
     </div>
